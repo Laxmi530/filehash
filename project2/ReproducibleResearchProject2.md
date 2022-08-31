@@ -1,4 +1,4 @@
-Github repo for the Course: [Reproducible Research](https://github.com/mGalarnyk/datasciencecoursera/tree/master/5_Reproducible_Research) </br> Github repo for Rest of Specialization: [Data Science Coursera](https://github.com/mGalarnyk/datasciencecoursera)
+Github repo for the Course: [Reproducible Research]((https://github.com/Laxmi530/filehash/tree/main/project2) </br> Github repo for Rest of Specialization: [Data Science Coursera](https://github.com/Laxmi530/filehash)
 
 1: Synopsis
 -----------
@@ -24,8 +24,8 @@ library("data.table")
 library("ggplot2")
 
 fileUrl <- "https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2"
-download.file(fileUrl, destfile = paste0("/Users/mgalarny/Desktop", '/repdata%2Fdata%2FStormData.csv.bz2'))
-stormDF <- read.csv("/Users/mgalarny/Desktop/repdata%2Fdata%2FStormData.csv.bz2")
+download.file(fileUrl, destfile = paste0("/Users/name/Desktop", '/repdata%2Fdata%2FStormData.csv.bz2'))
+stormDF <- read.csv("/Users/name/Desktop/repdata%2Fdata%2FStormData.csv.bz2")
 
 # Converting data.frame to data.table
 stormDT <- as.data.table(stormDF)
@@ -201,8 +201,8 @@ healthChart = healthChart + ggtitle("Top 10 US Killers") + theme(plot.title = el
 
 healthChart
 ```
+![healthChart-1](https://user-images.githubusercontent.com/76505459/187715508-4ba32292-9f7c-48fe-9548-cf2c3be70072.png)
 
-![](ReproducibleResearchProject2_files/figure-markdown_github/healthChart-1.png)
 
 ### 3.2: Events that have the Greatest Economic Consequences
 
@@ -242,4 +242,4 @@ econChart = econChart + ggtitle("Top 10 US Storm Events causing Economic Consequ
 econChart
 ```
 
-![](ReproducibleResearchProject2_files/figure-markdown_github/econChart-1.png)
+![econChart-1](https://user-images.githubusercontent.com/76505459/187715557-7b52751f-a721-4045-b151-52971aeef306.png)
